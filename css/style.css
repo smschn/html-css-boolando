@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #ff6900;
+    height: 100px;
+    color: #fff;
+}
+
+.header-container {
+    width: 90%;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    padding: 10px;
+}
+
+.header-container .h-container-logo img {
+    width: 20%;
+}
+
+/*
+footer {
+    width: 90%;
+    margin: auto;
+    height: 200px;
+    background-color: #f1f1f1;
+}
+*/
+
+/* Debug */
+.debug {
+    border: 2px dashed #000;
+}
