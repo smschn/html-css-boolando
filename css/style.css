@@ -32,14 +32,25 @@ li {
     width: 20%;
 }
 
-/*
-footer {
+/* Start of main */
+.main-container {
     width: 90%;
     margin: auto;
-    height: 200px;
-    background-color: #f1f1f1;
+    height: 2000px;
+    background-color: lightblue;
 }
-*/
+
+
+
+footer {
+    height: 200px;
+    background-color: lightgreen;
+}
+
+.footer-container {
+    width: 90%;
+    margin: auto;
+}
 
 /* Debug */
 .debug {
