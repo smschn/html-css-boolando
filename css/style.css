@@ -61,9 +61,8 @@ main {
 .main-container {
     width: 90%;
     margin: auto;
-    margin-bottom: 30px;
-    height: 1300px; /*sistemare?*/
-    background-color: lightblue; /*togliere*/
+    margin-bottom: 50px;
+    height: 1300px;
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
@@ -71,7 +70,6 @@ main {
 
 .main-content {
     width: calc(100% / 3 - 20px);
-    background-color: lightseagreen; /*togliere*/
     position: relative; /*per cuore*/
 }
 
@@ -141,6 +139,7 @@ main {
 .product-name {
     font-weight: bolder;
     text-transform: uppercase;
+    margin: 2px 0px;
 }
 
 .discounted-price {
@@ -200,7 +199,11 @@ h5 {
     border: 5px dashed purple;
 }
 
-/*
-To do:
-+ border bottom header shadow
-+ 
+/* Debug again
+.main-container {
+    background-color: lightblue;
+}
+
+.main-content {
+    background-color: lightseagreen;
+}
