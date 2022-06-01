@@ -109,6 +109,10 @@ main {
     background-color: #fff;
 }
 
+.heart:hover {
+    color: red;
+}
+
 .item-details {
     position: absolute;
     bottom: 50px;
