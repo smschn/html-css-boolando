@@ -55,14 +55,14 @@ i {
 
 /* Start of main */
 main {
-    padding-top: 200px;
+    padding-top: 150px;
 }
 
 .main-container {
     width: 90%;
     margin: auto;
-    margin-bottom: 100px;
-    height: 1500px; /*sistemare?*/
+    margin-bottom: 30px;
+    height: 1300px; /*sistemare?*/
     background-color: lightblue; /*togliere*/
     display: flex;
     flex-wrap: wrap;
@@ -150,6 +150,10 @@ main {
 
 .full-price {
     text-decoration: line-through;
+}
+
+.first-row {
+    margin-bottom: 50px;
 }
 /*End of main*/
 
