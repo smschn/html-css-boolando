@@ -52,6 +52,33 @@ li {
 .item-left, .item-center {
     margin-right: 30px;
 }
+
+.item-photo {
+    width: 100%;
+}
+
+.product-page {
+    position: relative;
+}
+
+.item-details {
+    position: absolute;
+    bottom: 50px;
+    left: 0px;
+    color: #fff;
+    display: flex;
+}
+
+.item-discount {
+    background-color: #ff0000;
+    margin-right: 5px;
+    padding: 10px;
+}
+
+.item-sustainability {
+    background-color: #008000;
+    padding: 10px;
+}
 /*End of main*/
 
 /* Start of footer */
