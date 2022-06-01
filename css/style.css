@@ -86,7 +86,7 @@ main {
     display: none;
 }
 
-.item-photo-1:hover {
+.product-page:hover .item-photo-1 {
     display: none;
 }
 
