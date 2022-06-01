@@ -29,13 +29,13 @@ header {
     align-items: center;
 }
 
-ul {
+.header-ul {
     list-style: none;
     display: flex;
     font-weight: bolder;
 }
 
-li {
+.header-ul > li {
     padding: 10px;
 }
 
@@ -145,8 +145,9 @@ main {
 
 /* Start of footer */
 footer {
-    height: 200px;
-    background-color: lightgreen;
+    height: 150px;
+    background-color: #1a1a1a;
+    color: #fff;
 }
 
 .footer-container {
@@ -156,6 +157,27 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+h4 {
+    padding-bottom: 10px;
+}
+
+.footer-ul {
+    list-style: none;
+    display: flex;
+}
+
+.footer-ul > li {
+    padding-right: 15px;
+}
+
+h5 {
+    padding-bottom: 10px;
+}
+
+.footer-icons > i {
+    font-size: large;
 }
 /* End of footer */
 
