@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* Start of header */
 header {
     background-color: #ff6900;
     height: 100px;
@@ -31,6 +32,7 @@ li {
 .header-container .h-container-logo img {
     width: 20%;
 }
+/* End of header */
 
 /* Start of main */
 .main-container {
@@ -39,9 +41,9 @@ li {
     height: 2000px;
     background-color: lightblue;
 }
+/*End of main*/
 
-
-
+/* Start of footer */
 footer {
     height: 200px;
     background-color: lightgreen;
@@ -55,6 +57,7 @@ footer {
     justify-content: space-between;
     align-items: center;
 }
+/* End of footer */
 
 /* Debug */
 .debug {
