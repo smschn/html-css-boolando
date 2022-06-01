@@ -37,15 +37,12 @@ header {
 }
 
 .header-ul > li {
-    padding: 10px;
+    padding-right: 10px;
 }
 
-.h-container-logo {
-    width: calc(100% / 8);
-}
-
-.header-container .h-container-logo img {
-    width: 100%;
+.logo {
+    text-align: center;
+    width: 150px;
 }
 
 i {
