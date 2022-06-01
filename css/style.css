@@ -57,8 +57,21 @@ li {
     margin-right: 30px;
 }
 
-.item-photo {
+.item-photo-1 {
     width: 100%;
+}
+
+.item-photo-1b {
+    width: 100%;
+    display: none;
+}
+
+.item-photo-1:hover {
+    display: none;
+}
+
+.product-page:hover .item-photo-1b {
+    display: block;
 }
 
 .product-page {
@@ -73,7 +86,7 @@ li {
     height: 50px;
     font-size: 40px;
     text-align: center;
-    line-height: 100%; /*verificare*/
+    background-color: #fff;
 }
 
 .item-details {
