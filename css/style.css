@@ -38,8 +38,14 @@ li {
 .main-container {
     width: 90%;
     margin: auto;
-    height: 2000px;
-    background-color: lightblue;
+    height: 2000px; /*sistemare?*/
+    background-color: lightblue; /*togliere*/
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-content {
+    width: calc(100% / 3);
 }
 /*End of main*/
 
