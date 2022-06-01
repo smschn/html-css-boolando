@@ -116,7 +116,7 @@ main {
 
 .item-details {
     position: absolute;
-    bottom: 50px;
+    bottom: 30px;
     left: 0px;
     color: #fff;
     display: flex;
@@ -126,11 +126,15 @@ main {
     background-color: #ff0000;
     margin-right: 5px;
     padding: 10px;
+    font-weight: bolder;
+    font-size: small;
 }
 
 .item-sustainability {
     background-color: #008000;
     padding: 10px;
+    font-weight: bolder;
+    font-size: small;
 }
 
 .product-name {
