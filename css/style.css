@@ -91,7 +91,7 @@ main {
 }
 
 .product-page:hover .item-photo-1b {
-    display: block;
+    display: inline-block;
 }
 
 .product-page {
