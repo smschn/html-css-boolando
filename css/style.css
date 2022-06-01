@@ -13,6 +13,11 @@ header {
     background-color: #ff6900;
     height: 100px;
     color: #fff;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 9999;
 }
 
 .header-container {
@@ -36,8 +41,8 @@ li {
 
 .h-container-logo {
     width: calc(100% / 8);
-
 }
+
 .header-container .h-container-logo img {
     width: 100%;
 }
@@ -48,9 +53,15 @@ i {
 /* End of header */
 
 /* Start of main */
+
+main {
+    padding-top: 200px;
+}
+
 .main-container {
     width: 90%;
-    margin: 50px auto;
+    margin: auto;
+    margin-bottom: 100px;
     height: 2000px; /*sistemare?*/
     background-color: lightblue; /*togliere*/
     display: flex;
