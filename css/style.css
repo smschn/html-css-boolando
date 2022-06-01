@@ -45,7 +45,13 @@ li {
 }
 
 .main-content {
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 20px);
+    height: 300px;
+    background-color: lightseagreen; /*togliere*/
+}
+
+.item-left, .item-center {
+    margin-right: 30px;
 }
 /*End of main*/
 
