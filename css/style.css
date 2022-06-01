@@ -62,10 +62,11 @@ main {
     width: 90%;
     margin: auto;
     margin-bottom: 100px;
-    height: 2000px; /*sistemare?*/
+    height: 1500px; /*sistemare?*/
     background-color: lightblue; /*togliere*/
     display: flex;
     flex-wrap: wrap;
+    align-content: flex-start;
 }
 
 .main-content {
