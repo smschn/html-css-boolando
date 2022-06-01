@@ -71,6 +71,7 @@ main {
 .main-content {
     width: calc(100% / 3 - 20px);
     background-color: lightseagreen; /*togliere*/
+    position: relative; /*per cuore*/
 }
 
 .item-left, .item-center {
