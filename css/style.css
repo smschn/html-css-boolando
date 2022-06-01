@@ -50,9 +50,18 @@ footer {
 .footer-container {
     width: 90%;
     margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* Debug */
 .debug {
     border: 2px dashed #000;
 }
+
+/*
+To do:
++ border bottom header shadow
++ 
