@@ -46,7 +46,7 @@ header {
 }
 
 i {
-    padding-left: 5px; /*vale anche per le icone nel footer*/
+    padding-left: 8px;
 }
 /* End of header */
 
@@ -67,7 +67,7 @@ main {
 
 .main-content {
     width: calc(100% / 3 - 20px);
-    position: relative; /*per cuore*/
+    position: relative; /* related to heart */
 }
 
 .item-left, .item-center {
@@ -191,7 +191,7 @@ h5 {
 }
 /* End of footer */
 
-/* General class for clickable items */
+/* General rules for clickable items */
 .clickable-item {
     text-decoration: none;
     color: #fff;
